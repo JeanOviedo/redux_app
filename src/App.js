@@ -11,7 +11,7 @@ function App() {
 
   function handleEdita() {
       dispatch(ActionEdita ("tssssssssssssssk"));
-      dispatch(editTextBoton ("TEXTO DEL BOTON"));
+      dispatch(editTextBoton ("TEXTO DEL BOTON OK"));
      
   }
 
