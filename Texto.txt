@@ -1,0 +1,17 @@
+npm install redux-thunk
+npm install react-redux
+
+
+
+combinar reduxer
+
+import { combineReducers } from 'redux';
+import { registerReducer } from './registerReducer';
+import { loginReducer } from './loginReducer';
+
+export default combineReducers({
+  registerReducer,
+  loginReducer
+});
+
+https://www.youtube.com/watch?v=c0MpQeOKc-4&ab_channel=MonkeyWit
